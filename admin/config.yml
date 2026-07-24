@@ -1,0 +1,63 @@
+backend:
+  name: git-gateway
+  branch: main
+
+# Where uploaded images are stored and how they're referenced in content
+media_folder: "images/uploads"
+public_folder: "/images/uploads"
+
+publish_mode: simple
+
+collections:
+
+  # ---- Site-wide settings: contact details + homepage hero text ----
+  - name: "settings"
+    label: "Site Settings"
+    files:
+      - label: "General Settings"
+        name: "general"
+        file: "data/settings.json"
+        fields:
+          - { label: "Phone Number", name: "phone", widget: "string" }
+          - { label: "WhatsApp Number (digits only, e.g. 23177000000)", name: "whatsapp", widget: "string" }
+          - { label: "Email Address", name: "email", widget: "string" }
+          - { label: "Office Address", name: "address", widget: "text" }
+          - { label: "Business Hours", name: "hours", widget: "text" }
+          - { label: "Homepage Hero Headline", name: "heroHeadline", widget: "string" }
+          - { label: "Homepage Hero Subheadline", name: "heroSubheadline", widget: "text" }
+          - { label: "Chat Assistant Name", name: "assistantName", widget: "string", default: "Amp" }
+          - { label: "Chat Assistant Greeting", name: "assistantGreeting", widget: "text", default: "Hi, I'm Amp 👋 I can help with quotes, services, or hours. What can I help you with today?" }
+
+  # ---- Projects portfolio ----
+  - name: "projects"
+    label: "Projects"
+    file: "data/projects.json"
+    format: "json"
+    extension: "json"
+    fields:
+      - label: "Projects"
+        name: "items"
+        widget: "list"
+        fields:
+          - { label: "Title", name: "title", widget: "string" }
+          - { label: "Category", name: "category", widget: "select", options: ["residential", "commercial", "solar", "industrial"] }
+          - { label: "Location", name: "location", widget: "string" }
+          - { label: "Description", name: "description", widget: "text" }
+          - { label: "Status", name: "status", widget: "select", options: ["Completed", "In Progress"] }
+          - { label: "Photo", name: "image", widget: "image" }
+
+  # ---- Testimonials ----
+  - name: "testimonials"
+    label: "Testimonials"
+    file: "data/testimonials.json"
+    format: "json"
+    extension: "json"
+    fields:
+      - label: "Testimonials"
+        name: "items"
+        widget: "list"
+        fields:
+          - { label: "Quote", name: "quote", widget: "text" }
+          - { label: "Name", name: "name", widget: "string" }
+          - { label: "Role / Location", name: "role", widget: "string" }
+          - { label: "Star Rating (1-5)", name: "rating", widget: "number", default: 5, min: 1, max: 5 }

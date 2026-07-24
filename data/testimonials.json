@@ -1,0 +1,22 @@
+{
+  "items": [
+    {
+      "quote": "Our office had constant outages before LIBCURRENT installed the ATS and solar backup. We haven't lost a single working hour since.",
+      "name": "Josephine T.",
+      "role": "Facilities Manager, Monrovia",
+      "rating": 5
+    },
+    {
+      "quote": "They rewired our entire home and explained every step. Professional, punctual, and the pricing was clear from day one.",
+      "name": "Emmanuel K.",
+      "role": "Homeowner, Paynesville",
+      "rating": 5
+    },
+    {
+      "quote": "Solar installation was smooth from survey to commissioning. Our production line now runs on backup power without interruption.",
+      "name": "Grace D.",
+      "role": "Plant Supervisor, Freeport",
+      "rating": 5
+    }
+  ]
+}

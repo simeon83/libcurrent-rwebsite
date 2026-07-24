@@ -1,0 +1,76 @@
+{
+  "items": [
+    {
+      "title": "10kW Hybrid Solar System",
+      "category": "solar",
+      "location": "Sinkor, Monrovia",
+      "description": "Grid-tied hybrid system with battery backup for a family residence and home office.",
+      "status": "Completed",
+      "image": "https://images.pexels.com/photos/8853539/pexels-photo-8853539.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "title": "Full House Rewiring & Solar Backup",
+      "category": "residential",
+      "location": "Paynesville City",
+      "description": "Complete rewire to current code plus a 5kW rooftop solar backup system.",
+      "status": "Completed",
+      "image": "https://images.pexels.com/photos/29206488/pexels-photo-29206488.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "title": "Warehouse Three-Phase Power Upgrade",
+      "category": "industrial",
+      "location": "Freeport, Monrovia",
+      "description": "Three-phase distribution upgrade with new control panel for a logistics warehouse.",
+      "status": "In Progress",
+      "image": "https://images.pexels.com/photos/9800010/pexels-photo-9800010.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "title": "Retail Plaza Solar & Backup Power",
+      "category": "commercial",
+      "location": "Broad Street, Monrovia",
+      "description": "Rooftop solar array with ATS-controlled generator backup for a multi-tenant plaza.",
+      "status": "Completed",
+      "image": "https://images.pexels.com/photos/4254164/pexels-photo-4254164.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "title": "Off-Grid Solar System For Rural Clinic",
+      "category": "solar",
+      "location": "Bomi County",
+      "description": "Fully off-grid solar and battery system powering lighting and medical refrigeration.",
+      "status": "Completed",
+      "image": "https://images.pexels.com/photos/6961123/pexels-photo-6961123.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "title": "New-Build Home Wiring & Lighting",
+      "category": "residential",
+      "location": "Congo Town, Monrovia",
+      "description": "Full electrical fit-out for a new two-storey family home, including exterior lighting.",
+      "status": "Completed",
+      "image": "https://images.pexels.com/photos/8853504/pexels-photo-8853504.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "title": "Factory Preventive Maintenance Program",
+      "category": "industrial",
+      "location": "Bushrod Island",
+      "description": "Ongoing quarterly inspection and maintenance for a manufacturing facility's power systems.",
+      "status": "Completed",
+      "image": "https://images.pexels.com/photos/4254159/pexels-photo-4254159.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "title": "Hotel Rooftop Solar Installation",
+      "category": "commercial",
+      "location": "Mamba Point, Monrovia",
+      "description": "60-panel rooftop array to offset diesel generator use for a mid-size hotel.",
+      "status": "In Progress",
+      "image": "https://images.pexels.com/photos/14613939/pexels-photo-14613939.jpeg?auto=compress&cs=tinysrgb&w=700"
+    },
+    {
+      "title": "Community Solar Micro-Grid",
+      "category": "solar",
+      "location": "Margibi County",
+      "description": "Shared solar micro-grid supplying power to a cluster of homes and small shops.",
+      "status": "Completed",
+      "image": "https://images.pexels.com/photos/16659262/pexels-photo-16659262.jpeg?auto=compress&cs=tinysrgb&w=700"
+    }
+  ]
+}
