@@ -31,33 +31,35 @@ collections:
   # ---- Projects portfolio ----
   - name: "projects"
     label: "Projects"
-    file: "data/projects.json"
-    format: "json"
-    extension: "json"
-    fields:
-      - label: "Projects"
+    files:
+      - label: "Projects List"
         name: "items"
-        widget: "list"
+        file: "data/projects.json"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Category", name: "category", widget: "select", options: ["residential", "commercial", "solar", "industrial"] }
-          - { label: "Location", name: "location", widget: "string" }
-          - { label: "Description", name: "description", widget: "text" }
-          - { label: "Status", name: "status", widget: "select", options: ["Completed", "In Progress"] }
-          - { label: "Photo", name: "image", widget: "image" }
+          - label: "Projects"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Category", name: "category", widget: "select", options: ["residential", "commercial", "solar", "industrial"] }
+              - { label: "Location", name: "location", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Status", name: "status", widget: "select", options: ["Completed", "In Progress"] }
+              - { label: "Photo", name: "image", widget: "image" }
 
   # ---- Testimonials ----
   - name: "testimonials"
     label: "Testimonials"
-    file: "data/testimonials.json"
-    format: "json"
-    extension: "json"
-    fields:
-      - label: "Testimonials"
+    files:
+      - label: "Testimonials List"
         name: "items"
-        widget: "list"
+        file: "data/testimonials.json"
         fields:
-          - { label: "Quote", name: "quote", widget: "text" }
-          - { label: "Name", name: "name", widget: "string" }
-          - { label: "Role / Location", name: "role", widget: "string" }
-          - { label: "Star Rating (1-5)", name: "rating", widget: "number", default: 5, min: 1, max: 5 }
+          - label: "Testimonials"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Quote", name: "quote", widget: "text" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Role / Location", name: "role", widget: "string" }
+              - { label: "Star Rating (1-5)", name: "rating", widget: "number", default: 5, min: 1, max: 5 }
