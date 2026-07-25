@@ -8,8 +8,8 @@
   <script defer src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
 </head>
 <body>
-  <!-- Decap CMS (formerly Netlify CMS) -->
-  <script src="https://unpkg.com/decap-cms-app@^3.0.0/dist/decap-cms-app.js"></script>
+  <!-- Decap CMS (formerly Netlify CMS) — pinned to a known-stable version -->
+  <script src="https://unpkg.com/decap-cms@3.11.0/dist/decap-cms.js"></script>
   <script>
     // Redirect back to /admin/ after login confirmation emails, invites, etc.
     if (window.netlifyIdentity) {
