@@ -31,33 +31,279 @@ collections:
   # ---- Projects portfolio ----
   - name: "projects"
     label: "Projects"
-    file: "data/projects.json"
-    format: "json"
-    extension: "json"
-    fields:
-      - label: "Projects"
+    files:
+      - label: "Projects List"
         name: "items"
-        widget: "list"
+        file: "data/projects.json"
         fields:
-          - { label: "Title", name: "title", widget: "string" }
-          - { label: "Category", name: "category", widget: "select", options: ["residential", "commercial", "solar", "industrial"] }
-          - { label: "Location", name: "location", widget: "string" }
-          - { label: "Description", name: "description", widget: "text" }
-          - { label: "Status", name: "status", widget: "select", options: ["Completed", "In Progress"] }
-          - { label: "Photo", name: "image", widget: "image" }
+          - label: "Projects"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Category", name: "category", widget: "select", options: ["residential", "commercial", "solar", "industrial"] }
+              - { label: "Location", name: "location", widget: "string" }
+              - { label: "Description", name: "description", widget: "text" }
+              - { label: "Status", name: "status", widget: "select", options: ["Completed", "In Progress"] }
+              - { label: "Photo", name: "image", widget: "image" }
 
   # ---- Testimonials ----
   - name: "testimonials"
     label: "Testimonials"
-    file: "data/testimonials.json"
-    format: "json"
-    extension: "json"
-    fields:
-      - label: "Testimonials"
+    files:
+      - label: "Testimonials List"
         name: "items"
-        widget: "list"
+        file: "data/testimonials.json"
         fields:
-          - { label: "Quote", name: "quote", widget: "text" }
-          - { label: "Name", name: "name", widget: "string" }
-          - { label: "Role / Location", name: "role", widget: "string" }
-          - { label: "Star Rating (1-5)", name: "rating", widget: "number", default: 5, min: 1, max: 5 }
+          - label: "Testimonials"
+            name: "items"
+            widget: "list"
+            fields:
+              - { label: "Quote", name: "quote", widget: "text" }
+              - { label: "Name", name: "name", widget: "string" }
+              - { label: "Role / Location", name: "role", widget: "string" }
+              - { label: "Star Rating (1-5)", name: "rating", widget: "number", default: 5, min: 1, max: 5 }
+
+  # ---- Home page content ----
+  - name: "home"
+    label: "Home Page"
+    files:
+      - label: "Home Page Content"
+        name: "home"
+        file: "data/home.json"
+        fields:
+          - label: "Service Highlights Section"
+            name: "highlights"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Intro Text", name: "text", widget: "text" }
+              - label: "Cards"
+                name: "cards"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Text", name: "text", widget: "text" }
+          - label: "Why Choose Us Section"
+            name: "whyUs"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Bullet Points", name: "points", widget: "list" }
+          - label: "Projects Teaser Section"
+            name: "projectsTeaser"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+          - label: "Testimonials Section"
+            name: "testimonialsSection"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+          - label: "CTA Band"
+            name: "cta"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+          - label: "Newsletter"
+            name: "newsletter"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+
+  # ---- About page content ----
+  - name: "about"
+    label: "About Page"
+    files:
+      - label: "About Page Content"
+        name: "about"
+        file: "data/about.json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+          - label: "Our Story"
+            name: "story"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Paragraphs", name: "paragraphs", widget: "list" }
+              - { label: "Image", name: "image", widget: "image" }
+          - label: "Vision"
+            name: "vision"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+          - label: "Mission"
+            name: "mission"
+            widget: "object"
+            fields:
+              - { label: "Title", name: "title", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+          - label: "Core Values Section"
+            name: "values"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Values"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Text", name: "text", widget: "text" }
+          - label: "Who We Serve Section"
+            name: "whoWeServe"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Audiences"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Text", name: "text", widget: "text" }
+          - label: "CTA Band"
+            name: "cta"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+
+  # ---- Services page content ----
+  - name: "servicesPage"
+    label: "Services Page"
+    files:
+      - label: "Services Page Content"
+        name: "services"
+        file: "data/services.json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+          - label: "Intro"
+            name: "intro"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+          - label: "Service Categories (Tabs)"
+            name: "categories"
+            widget: "list"
+            fields:
+              - { label: "Tab Label", name: "tabLabel", widget: "string" }
+              - { label: "Tag", name: "tag", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+              - { label: "Image", name: "image", widget: "image" }
+              - { label: "Checklist Items", name: "items", widget: "list" }
+          - label: "FAQ Section"
+            name: "faq"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Questions"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Question", name: "q", widget: "string" }
+                  - { label: "Answer", name: "a", widget: "text" }
+          - label: "CTA Band"
+            name: "cta"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+
+  # ---- Projects page hero + CTA (portfolio grid is the "Projects" collection above) ----
+  - name: "projectsPage"
+    label: "Projects Page"
+    files:
+      - label: "Projects Page Content"
+        name: "projectsPage"
+        file: "data/projects-page.json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+          - label: "CTA Band"
+            name: "cta"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+
+  # ---- Quote page content ----
+  - name: "quotePage"
+    label: "Quote Page"
+    files:
+      - label: "Quote Page Content"
+        name: "quotePage"
+        file: "data/quote-page.json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+          - label: "How It Works Section"
+            name: "steps"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }
+              - label: "Steps"
+                name: "items"
+                widget: "list"
+                fields:
+                  - { label: "Title", name: "title", widget: "string" }
+                  - { label: "Text", name: "text", widget: "text" }
+
+  # ---- Contact page content (phone/email/address live in Site Settings) ----
+  - name: "contactPage"
+    label: "Contact Page"
+    files:
+      - label: "Contact Page Content"
+        name: "contactPage"
+        file: "data/contact-page.json"
+        fields:
+          - label: "Hero"
+            name: "hero"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+          - label: "Message Form Card"
+            name: "formCard"
+            widget: "object"
+            fields:
+              - { label: "Heading", name: "heading", widget: "string" }
+              - { label: "Text", name: "text", widget: "text" }
+          - label: "Map Section"
+            name: "mapSection"
+            widget: "object"
+            fields:
+              - { label: "Eyebrow", name: "eyebrow", widget: "string" }
+              - { label: "Heading", name: "heading", widget: "string" }

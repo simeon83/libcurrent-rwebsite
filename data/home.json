@@ -1,0 +1,41 @@
+{
+  "highlights": {
+    "eyebrow": "What We Do",
+    "heading": "One Call For Every Power Need",
+    "text": "Whether you're wiring a new home, backing up a facility, or going solar, our licensed engineers handle it end to end — from design to maintenance.",
+    "cards": [
+      { "title": "Residential Electrical", "text": "House wiring, lighting, distribution boards, and repairs done to code." },
+      { "title": "Commercial & Industrial", "text": "Three-phase systems, control panels, transformers, and preventive maintenance." },
+      { "title": "Solar & Renewable Energy", "text": "Solar design, panel and inverter installation, battery and hybrid systems." },
+      { "title": "Power Backup Solutions", "text": "Generator installation, ATS and UPS systems, and voltage stabilization." }
+    ]
+  },
+  "whyUs": {
+    "eyebrow": "Why Liberia Chooses Us",
+    "heading": "Engineering You Can Depend On, Every Time The Power Matters",
+    "text": "We combine trained electrical engineers, quality-tested materials, and a safety-first process so every installation performs for years — not just for the first switch-on.",
+    "image": "https://images.pexels.com/photos/6961123/pexels-photo-6961123.jpeg?auto=compress&cs=tinysrgb&w=900",
+    "points": [
+      "Licensed engineers and certified electrical technicians",
+      "Transparent quotes with no hidden charges",
+      "Quality-tested solar panels, inverters, and cabling",
+      "Ongoing maintenance plans for lasting performance"
+    ]
+  },
+  "projectsTeaser": {
+    "eyebrow": "Our Work",
+    "heading": "Recent Installations Across Liberia"
+  },
+  "testimonialsSection": {
+    "eyebrow": "Client Feedback",
+    "heading": "Trusted By Homeowners And Businesses"
+  },
+  "cta": {
+    "heading": "Ready For Power You Can Rely On?",
+    "text": "Get a free consultation and a transparent quote from our engineering team within 48 hours."
+  },
+  "newsletter": {
+    "heading": "Energy Tips & Project Updates",
+    "text": "Occasional emails on safety, solar savings, and project stories. No spam."
+  }
+}

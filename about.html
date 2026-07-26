@@ -8,7 +8,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><rect width=%2224%22 height=%2224%22 rx=%226%22 fill=%22%230B2A4D%22/><path d=%22M13 3 6 14h5l-1 7 8-12h-5l1-6z%22 fill=%22%23FF6A13%22/></svg>">
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body data-page="about">
 
 <header>
   <div class="container nav">
@@ -34,8 +34,8 @@
 <section class="page-hero">
   <div class="container">
     <div class="breadcrumb"><a href="index.html">Home</a> / About Us</div>
-    <h1>Built By Engineers Who Call Liberia Home</h1>
-    <p style="color:rgba(255,255,255,.82);max-width:60ch;">LIBCURRENT RENEWABLE exists to provide reliable, safe, affordable, and sustainable electrical and solar energy solutions that improve the lives of individuals, families, businesses, and communities across Liberia.</p>
+    <h1 data-content="hero.heading">Built By Engineers Who Call Liberia Home</h1>
+    <p style="color:rgba(255,255,255,.82);max-width:60ch;" data-content="hero.text">LIBCURRENT RENEWABLE exists to provide reliable, safe, affordable, and sustainable electrical and solar energy solutions that improve the lives of individuals, families, businesses, and communities across Liberia.</p>
   </div>
 </section>
 
@@ -44,13 +44,15 @@
 <section>
   <div class="container split">
     <div>
-      <div class="eyebrow">Our Story</div>
-      <h2>Powering Progress, One Installation At A Time</h2>
-      <p>LIBCURRENT RENEWABLE was founded to close a simple but urgent gap: Liberian homes, businesses, and industries deserve electrical work and solar systems built to last — not quick fixes that fail in the rainy season.</p>
-      <p>Our engineers and technicians bring hands-on field experience across residential wiring, commercial power systems, and solar installations, backed by quality-tested materials and a safety-first process on every job site.</p>
-      <p>Today, we serve homeowners, businesses, construction companies, government offices, and NGOs across Monrovia and beyond — with the same standard on every project, big or small.</p>
+      <div class="eyebrow" data-content="story.eyebrow">Our Story</div>
+      <h2 data-content="story.heading">Powering Progress, One Installation At A Time</h2>
+      <div id="story-paragraphs">
+        <p>LIBCURRENT RENEWABLE was founded to close a simple but urgent gap: Liberian homes, businesses, and industries deserve electrical work and solar systems built to last — not quick fixes that fail in the rainy season.</p>
+        <p>Our engineers and technicians bring hands-on field experience across residential wiring, commercial power systems, and solar installations, backed by quality-tested materials and a safety-first process on every job site.</p>
+        <p>Today, we serve homeowners, businesses, construction companies, government offices, and NGOs across Monrovia and beyond — with the same standard on every project, big or small.</p>
+      </div>
     </div>
-    <img src="https://images.pexels.com/photos/4254159/pexels-photo-4254159.jpeg?auto=compress&cs=tinysrgb&w=900" alt="LIBCURRENT technician inspecting a solar panel installation">
+    <img data-content="story.image" src="https://images.pexels.com/photos/4254159/pexels-photo-4254159.jpeg?auto=compress&cs=tinysrgb&w=900" alt="LIBCURRENT technician inspecting a solar panel installation">
   </div>
 </section>
 
@@ -59,13 +61,13 @@
     <div class="grid-2">
       <div class="highlight-card reveal">
         <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 7v5c0 5 3.4 8.7 8 9 4.6-.3 8-4 8-9V7l-8-4z"/></svg></div>
-        <h3>Our Vision</h3>
-        <p>To become Liberia's most trusted electrical and renewable energy solutions provider.</p>
+        <h3 data-content="vision.title">Our Vision</h3>
+        <p data-content="vision.text">To become Liberia's most trusted electrical and renewable energy solutions provider.</p>
       </div>
       <div class="highlight-card reveal">
         <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="9"/><path d="M12 7v5l3 3"/></svg></div>
-        <h3>Our Mission</h3>
-        <p>To deliver safe, innovative, and sustainable energy solutions through professional expertise, quality materials, and excellent customer service.</p>
+        <h3 data-content="mission.title">Our Mission</h3>
+        <p data-content="mission.text">To deliver safe, innovative, and sustainable energy solutions through professional expertise, quality materials, and excellent customer service.</p>
       </div>
     </div>
   </div>
@@ -74,10 +76,10 @@
 <section>
   <div class="container">
     <div class="section-head center">
-      <div class="eyebrow">What Guides Us</div>
-      <h2>Our Core Values</h2>
+      <div class="eyebrow" data-content="values.eyebrow">What Guides Us</div>
+      <h2 data-content="values.heading">Our Core Values</h2>
     </div>
-    <div class="highlight-grid">
+    <div class="highlight-grid" id="core-values-grid">
       <div class="highlight-card reveal">
         <div class="icon-badge"><svg viewBox="0 0 24 24" fill="none" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 7v5c0 5 3.4 8.7 8 9 4.6-.3 8-4 8-9V7l-8-4z"/><path d="m9.5 12 1.8 1.8L15 10"/></svg></div>
         <h3>Safety</h3><p>Every job follows strict electrical safety codes and protective procedures.</p>
@@ -105,10 +107,10 @@
 <section class="band">
   <div class="container">
     <div class="section-head center">
-      <div class="eyebrow">Who We Serve</div>
-      <h2>Trusted Across Every Sector</h2>
+      <div class="eyebrow" data-content="whoWeServe.eyebrow">Who We Serve</div>
+      <h2 data-content="whoWeServe.heading">Trusted Across Every Sector</h2>
     </div>
-    <div class="highlight-grid">
+    <div class="highlight-grid" id="serve-grid">
       <div class="highlight-card reveal"><h3>Homeowners</h3><p>Safe, code-compliant wiring and solar backup for your family home.</p></div>
       <div class="highlight-card reveal"><h3>Businesses</h3><p>Uninterrupted power for shops, offices, and hospitality venues.</p></div>
       <div class="highlight-card reveal"><h3>Industrial &amp; Construction</h3><p>Three-phase systems and power house supervision for demanding sites.</p></div>
@@ -121,8 +123,8 @@
   <div class="container">
     <div class="cta-band">
       <div>
-        <h2>Want To Work With A Team You Can Trust?</h2>
-        <p>Tell us about your project and get a transparent, no-obligation quote.</p>
+        <h2 data-content="cta.heading">Want To Work With A Team You Can Trust?</h2>
+        <p data-content="cta.text">Tell us about your project and get a transparent, no-obligation quote.</p>
       </div>
       <div style="display:flex;gap:14px;flex-wrap:wrap;">
         <a href="quote.html" class="btn btn-primary">Request A Quote</a>

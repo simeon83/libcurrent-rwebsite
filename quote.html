@@ -8,7 +8,7 @@
 <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22><rect width=%2224%22 height=%2224%22 rx=%226%22 fill=%22%230B2A4D%22/><path d=%22M13 3 6 14h5l-1 7 8-12h-5l1-6z%22 fill=%22%23FF6A13%22/></svg>">
 <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body data-page="quote">
 
 <header>
   <div class="container nav">
@@ -34,8 +34,8 @@
 <section class="page-hero">
   <div class="container">
     <div class="breadcrumb"><a href="index.html">Home</a> / Request A Quote</div>
-    <h1>Tell Us About Your Project</h1>
-    <p style="color:rgba(255,255,255,.82);max-width:60ch;">Fill in the details below and our engineering team will get back to you within 48 hours with a clear, no-obligation quote.</p>
+    <h1 data-content="hero.heading">Tell Us About Your Project</h1>
+    <p style="color:rgba(255,255,255,.82);max-width:60ch;" data-content="hero.text">Fill in the details below and our engineering team will get back to you within 48 hours with a clear, no-obligation quote.</p>
   </div>
 </section>
 
@@ -99,10 +99,10 @@
 <section class="band">
   <div class="container">
     <div class="section-head center">
-      <div class="eyebrow">How It Works</div>
-      <h2>From Inquiry To Installation</h2>
+      <div class="eyebrow" data-content="steps.eyebrow">How It Works</div>
+      <h2 data-content="steps.heading">From Inquiry To Installation</h2>
     </div>
-    <div class="highlight-grid">
+    <div class="highlight-grid" id="steps-grid">
       <div class="highlight-card reveal"><h3>1. Submit Your Request</h3><p>Share your project details and photos so we understand the scope.</p></div>
       <div class="highlight-card reveal"><h3>2. Site Survey</h3><p>Our engineers visit or review your details to assess requirements.</p></div>
       <div class="highlight-card reveal"><h3>3. Free Quote</h3><p>Receive a clear, itemized quote within 48 hours — no obligation.</p></div>

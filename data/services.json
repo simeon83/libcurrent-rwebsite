@@ -1,0 +1,67 @@
+{
+  "hero": {
+    "heading": "Electrical & Renewable Energy Services, Handled End To End",
+    "text": "From a single socket repair to a full industrial power upgrade — our licensed engineers design, install, and maintain it all."
+  },
+  "intro": {
+    "eyebrow": "Our Services",
+    "heading": "Choose A Category To See What's Included"
+  },
+  "categories": [
+    {
+      "tabLabel": "01 · Residential Electrical",
+      "tag": "Residential Electrical",
+      "heading": "Wiring And Repairs Done Safely, The First Time",
+      "text": "We handle everything electrical inside your home — new builds, renovations, and repairs — with clean workmanship and code-compliant materials.",
+      "image": "https://images.pexels.com/photos/14613939/pexels-photo-14613939.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "items": ["House wiring", "Renovation wiring", "Lighting installation", "Socket & switch installation", "Distribution board installation", "Earthing systems", "Generator changeover", "Electrical repairs"]
+    },
+    {
+      "tabLabel": "02 · Commercial & Industrial",
+      "tag": "Commercial & Industrial",
+      "heading": "Power Systems Built For Demanding Operations",
+      "text": "We design and maintain the electrical backbone of shops, factories, and facilities — engineered for uptime and inspected on a schedule, not just when something breaks.",
+      "image": "https://images.pexels.com/photos/8853539/pexels-photo-8853539.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "items": ["Three-phase systems", "Control panels", "Transformers", "Motor installation", "Power house supervision", "Preventive maintenance"]
+    },
+    {
+      "tabLabel": "03 · Solar & Renewable",
+      "tag": "Solar & Renewable Energy",
+      "heading": "Solar Systems Designed Around Your Actual Usage",
+      "text": "We size and install solar systems that match your real power needs — grid-tied, hybrid, or fully off-grid — with a maintenance plan to protect your investment.",
+      "image": "https://images.pexels.com/photos/6961123/pexels-photo-6961123.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "items": ["Solar system design", "Solar panel installation", "Inverter installation", "Battery systems", "Hybrid systems", "Off-grid solutions", "Maintenance"]
+    },
+    {
+      "tabLabel": "04 · Power Backup",
+      "tag": "Power Backup Solutions",
+      "heading": "Never Lose Power At The Wrong Moment",
+      "text": "From homes to server rooms, we install backup systems that switch over automatically and keep voltage stable for sensitive equipment.",
+      "image": "https://images.pexels.com/photos/9800010/pexels-photo-9800010.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "items": ["Generator installation", "ATS systems", "UPS systems", "Power stabilization"]
+    },
+    {
+      "tabLabel": "05 · Safety & Technology",
+      "tag": "Safety & Technology",
+      "heading": "Protecting Your People, Property, And Equipment",
+      "text": "We add the safety and monitoring layer around your power system — lightning protection, inspections, and the surveillance infrastructure to match.",
+      "image": "https://images.pexels.com/photos/4254159/pexels-photo-4254159.jpeg?auto=compress&cs=tinysrgb&w=800",
+      "items": ["Lightning protection", "Electrical inspection", "CCTV installation", "Network cabling"]
+    }
+  ],
+  "faq": {
+    "eyebrow": "Common Questions",
+    "heading": "Frequently Asked Questions",
+    "items": [
+      { "q": "How long does a typical solar installation take?", "a": "Most residential systems are installed within 2–5 working days after site survey and material delivery, depending on system size and roof access." },
+      { "q": "Do you provide a warranty on your work?", "a": "Yes. All installations include a workmanship warranty, in addition to manufacturer warranties on panels, inverters, and batteries." },
+      { "q": "Can you work on occupied commercial buildings?", "a": "Yes, we plan installations and maintenance around your operating hours to minimize disruption to staff and customers." },
+      { "q": "Do you offer maintenance plans after installation?", "a": "Yes, we offer scheduled maintenance visits for solar, backup, and commercial power systems to keep performance consistent year-round." },
+      { "q": "Which areas of Liberia do you serve?", "a": "We are based in Monrovia and serve clients across Montserrado County, with project work available nationwide on request." }
+    ]
+  },
+  "cta": {
+    "heading": "Not Sure Which Service You Need?",
+    "text": "Describe your project and our team will recommend the right solution."
+  }
+}

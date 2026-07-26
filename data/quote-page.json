@@ -1,0 +1,16 @@
+{
+  "hero": {
+    "heading": "Tell Us About Your Project",
+    "text": "Fill in the details below and our engineering team will get back to you within 48 hours with a clear, no-obligation quote."
+  },
+  "steps": {
+    "eyebrow": "How It Works",
+    "heading": "From Inquiry To Installation",
+    "items": [
+      { "title": "1. Submit Your Request", "text": "Share your project details and photos so we understand the scope." },
+      { "title": "2. Site Survey", "text": "Our engineers visit or review your details to assess requirements." },
+      { "title": "3. Free Quote", "text": "Receive a clear, itemized quote within 48 hours — no obligation." },
+      { "title": "4. Installation", "text": "Our certified crew completes the work safely and on schedule." }
+    ]
+  }
+}

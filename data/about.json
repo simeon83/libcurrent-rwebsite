@@ -1,0 +1,49 @@
+{
+  "hero": {
+    "heading": "Built By Engineers Who Call Liberia Home",
+    "text": "LIBCURRENT RENEWABLE exists to provide reliable, safe, affordable, and sustainable electrical and solar energy solutions that improve the lives of individuals, families, businesses, and communities across Liberia."
+  },
+  "story": {
+    "eyebrow": "Our Story",
+    "heading": "Powering Progress, One Installation At A Time",
+    "paragraphs": [
+      "LIBCURRENT RENEWABLE was founded to close a simple but urgent gap: Liberian homes, businesses, and industries deserve electrical work and solar systems built to last — not quick fixes that fail in the rainy season.",
+      "Our engineers and technicians bring hands-on field experience across residential wiring, commercial power systems, and solar installations, backed by quality-tested materials and a safety-first process on every job site.",
+      "Today, we serve homeowners, businesses, construction companies, government offices, and NGOs across Monrovia and beyond — with the same standard on every project, big or small."
+    ],
+    "image": "https://images.pexels.com/photos/4254159/pexels-photo-4254159.jpeg?auto=compress&cs=tinysrgb&w=900"
+  },
+  "vision": {
+    "title": "Our Vision",
+    "text": "To become Liberia's most trusted electrical and renewable energy solutions provider."
+  },
+  "mission": {
+    "title": "Our Mission",
+    "text": "To deliver safe, innovative, and sustainable energy solutions through professional expertise, quality materials, and excellent customer service."
+  },
+  "values": {
+    "eyebrow": "What Guides Us",
+    "heading": "Our Core Values",
+    "items": [
+      { "title": "Safety", "text": "Every job follows strict electrical safety codes and protective procedures." },
+      { "title": "Integrity", "text": "Transparent pricing and honest advice, even when it means a simpler solution." },
+      { "title": "Quality", "text": "Only tested materials and certified components go into our installations." },
+      { "title": "Innovation", "text": "We bring modern solar and smart-grid thinking to every project we design." },
+      { "title": "Reliability", "text": "Power solutions engineered to keep running long after we leave the site." }
+    ]
+  },
+  "whoWeServe": {
+    "eyebrow": "Who We Serve",
+    "heading": "Trusted Across Every Sector",
+    "items": [
+      { "title": "Homeowners", "text": "Safe, code-compliant wiring and solar backup for your family home." },
+      { "title": "Businesses", "text": "Uninterrupted power for shops, offices, and hospitality venues." },
+      { "title": "Industrial & Construction", "text": "Three-phase systems and power house supervision for demanding sites." },
+      { "title": "Government & NGOs", "text": "Reliable infrastructure for public facilities and development projects." }
+    ]
+  },
+  "cta": {
+    "heading": "Want To Work With A Team You Can Trust?",
+    "text": "Tell us about your project and get a transparent, no-obligation quote."
+  }
+}
